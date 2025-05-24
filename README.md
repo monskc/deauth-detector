@@ -54,17 +54,17 @@ CSV Log: data/logs.csv
 JSON Export: data/logs.json (saved on exit)
 
 ## 🎓 Goals
-✔️ Understand Wi-Fi deauthentication attacks
-✔️ Learn RSSI-based proximity estimation
-✔️ Detect MAC spoofing patterns
-✔️ Practice Python modular design
-✔️ Build real-time data visualizations
+✔️ Understand Wi-Fi deauthentication attacks.
+✔️ Learn RSSI-based proximity estimation.
+✔️ Detect MAC spoofing patterns.
+✔️ Practice Python modular design.
+✔️ Build real-time data visualizations.
 
 ## 📦 Deliverables
-✅ Codebase (Python, modular)
-✅ README.md (setup + usage instructions)
-✅ Sample Screenshots & Logs (alerts, RSSI graph, JSON/CSV logs)
-✅ MAC Spoofing Detection logic
-✅ Proximity Estimation & Alerts
-✅ Optional Scapy Monitor Mode Hook (for real hardware detection)
-✅ (Bonus) Triangulation logic stub for future multi-node extensions
+✅ Codebase (Python, modular).
+✅ README.md (setup + usage instructions).
+✅ Sample Screenshots & Logs (alerts, RSSI graph, JSON/CSV logs).
+✅ MAC Spoofing Detection logic.
+✅ Proximity Estimation & Alerts.
+✅ Optional Scapy Monitor Mode Hook (for real hardware detection).
+✅ (Bonus) Triangulation logic stub for future multi-node extensions.
