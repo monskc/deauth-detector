@@ -46,10 +46,12 @@ deauth-detector/
 
 ### 2️⃣ Install dependencies
 sudo apt update
+
 sudo apt install python3-matplotlib -y
 
 ### 3️⃣ Run the detector
 cd deauth-detector
+
 python3 main.py
 
 ### 4️⃣ Watch for live alerts in the terminal and RSSI graphs in the popup window
