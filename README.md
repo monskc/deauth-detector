@@ -22,23 +22,39 @@
 ## 📂 Folder Structure
 
 deauth-detector/
-├── main.py # Entry point: orchestrates the detection system
-├── packet_simulator.py # Generates fake packets for testing the system
-├── analyzer.py # Detects deauth patterns from sniffed packets
-├── logger.py # Logs detected events to CSV/JSON files
-├── alerts.py # Sends terminal alerts
-├── visualizer.py # Visualizes RSSI and attack patterns
+├── main.py # Entry point: orchestrates the detection system.
+│
+├── packet_simulator.py # Generates fake packets for testing the system.
+│
+├── analyzer.py # Detects deauth patterns from sniffed packets.
+│
+├── logger.py # Logs detected events to CSV/JSON files.
+│
+├── alerts.py # Sends terminal alerts.
+│
+├── visualizer.py # Visualizes RSSI and attack patterns.
+│
 ├── utils/
-│ ├── rssi_distance.py # Estimates distances using RSSI values
-│ └── spoof_detector.py # Detects potential MAC spoofing attempts
+│
+│ ├── rssi_distance.py # Estimates distances using RSSI values.
+│
+│ └── spoof_detector.py # Detects potential MAC spoofing attempts.
+│
 ├── data/
-│ ├── logs.csv # CSV log file for detected events
-│ └── logs.json # JSON log file for detected events
+│
+│ ├── logs.csv # CSV log file for detected events.
+│
+│ └── logs.json # JSON log file for detected events.
+│
 ├── Screenshots/
+│
 │ ├── terminal_alerts.png
+│
 │ ├── rssi_graph1.png
+│
 │ └── rssi_graph2.png
-└── README.md # Project details
+│
+└── README.md # Project details.
 
 ## 🛠️ Setup & Installation
 
